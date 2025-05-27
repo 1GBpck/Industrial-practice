@@ -24,6 +24,57 @@ body {
 
 
 
+
+/* Главная станичка начало*/
+.body {
+    background-color: #1a1a2e;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+
+.a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 40px 50px;
+    font-size: 20px;
+}
+
+
+.a:hover {
+    text-decoration: underline;
+}
+
+
+.div {
+    margin-top: 20px;
+}
+
+
+.a img {
+    display: block;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+.a[href="skillbox.docx"] {
+    margin-top: 70px;
+    font-size: 20px;
+}
+/* Главная станичка конец*/
+
+
+
+
+/* Статьи станичка начало*/
 .container{
     margin: 0 auto;
     padding: 80px 0;
@@ -43,12 +94,6 @@ body {
 }
 
 
-.heading-h3{
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-
 .text{
     margin-top: 0;
     margin-bottom: 40px;
@@ -56,17 +101,13 @@ body {
 }
 
 
-.gray-box-last{
+.gray-box{
     border-radius: 20px;
     padding: 30px;
     background-color: #f3f3f3;
 }
 
-
-.gray-box-dont-last{
-    border-radius: 20px;
-    padding: 30px;
-    background-color: #f3f3f3;
+.block-bottom{
     margin-bottom: 40px;
 }
 
@@ -97,3 +138,4 @@ body {
     margin-bottom: 40px;
     width: 872px;
 }
+/* Статьи станичка конец*/
